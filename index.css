@@ -1,0 +1,39 @@
+/* https://pinetools.com/blur-image */
+body, html {
+    scroll-behavior: smooth;
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* background-color: #25046a; */
+    /* color: #e6f3fe; */
+}
+
+#banner {
+    height: 100vh;
+    background-image: url("images/banner.png");
+}
+
+
+@media (min-width: 992px) {
+    #banner {
+        margin-top: -58.59px;
+    }
+}
+
+#banner-content {
+    color: white;
+    font-size: 50px;
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.row-height {
+    height: 100%;
+}
+.founder {
+    margin: 10px 0 40px 0;
+}
